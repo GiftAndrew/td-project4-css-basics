@@ -1,4 +1,147 @@
+* {
+    font-family: sans-serif;
+}
+
 body{
     background-color: white;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header1 {
+    background-color: #228fee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    width: auto;
+    padding: 0 5%;
+}
+
+.header1 h2 {
+    width: 50%;
+    
+}
+.header1 h5 {
+    font-size: 14px;
+}
+
+
+.profile{
+    text-align: center;
+    padding: 5%;
+
+}
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+.profile h1{
+    color: #228fee;
+    font-size: 30px;
+}
+
+.profile p {
+    color:rgb(97, 126, 126) ;
+    font-size: 16px;
+}
+
+.profile-location {
+    padding-left: 43% ;
+    display: flex;
+    width: 20%;
+    color:rgb(97, 126, 126) ;
+
+}
+.profile-location img {
+    width: 25px;
+}
+
+.interests {
+    background-color: #228fee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: azure;
+    padding: 7%;
+    padding-right: 10%;
+
+}
+.interests-info1 {
+    width: 45%;
+}
+.interests-info1 h2 {
+    font-size: 30px;
+
+}
+
+.interests-info2 {
+    width: 35%;
+}
+
+.services h2 {
+    color: #228fee;
+    font-size: 30px;
+    padding-top: 9%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.services-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.services-types div {
+    background-color: rgb(53, 80, 80);
+    color: white;
+    width: 18%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2%;
+    font-size: 16px;
+    margin-bottom: 10%;
+    
+}
+.footer {
+    background-color: #228fee;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logos a img {
+    width: 15px ;
+    height: 15px ;
+    
+}
+.logos a {
+    margin-right: 1em;
+}
+
+.logos {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.footer h4{
+    font-size: 18px;
+}
+
+.footer h3 {
+    font-size: 24px;
+}
+
+.footer p{
+    font-size: 12px;
+    font-weight: 600;
+    
 }
